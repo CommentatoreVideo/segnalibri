@@ -10,15 +10,19 @@
 #main a,
 #main p,
 #main b,
-#main *,
-#main *:hover{
-  background-color:#303030;
+#main span,
+select{
   color:#ffffff;
+}
+
+#main,
+select{
+  background-color:#303030;
 }
 
 /*Pulsanti invio*/
 input[type="button"] {
-  background-color:#505050;
+  background-color:#505050!important;
   color:#ffffff!important;
 }
 
@@ -37,17 +41,39 @@ input[type="button"] {
 }
 
 /*Sfondo nelle icone del quaderno rosse*/
+.icon.red,
 .icon.red:hover,
+.icon.red i,
 .icon.red i:hover{
   background-color: #e51400 !important;
 }
 
 /*Linea che unisce le icone nei messaggi alla classe*/
+.line,
 .line:hover{
   background-color:#eee !important;
 }
 
 /*Hover nei "messaggi alla classe" */
+.timeline,
 .timeline>li:hover{
   background-color:#303030 !important;
+}
+
+.nav-tabs>.active>a{
+  background-color:#303030;
+}
+
+#footer p {
+  background-color: #505050;
+}
+
+
+tr th, tr td{
+  background-color:#404040 !important;
+}
+ul.pagestats.style-3,
+tr[id^='riga'] *{
+  background-color: #505050!important;
+  border-color:#505050 !important;
 }
