@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Elexpo tema scuro",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.umanetexpo.net/expo2015Server/UECDL/script/cClasse/*",
+        "https://www.umanetexpo.net/expo2015Server/UECDL/script/cSocial/*"
+      ],
+      "js": [
+        "elexpo.js"
+      ]
+    }
+  ]
+}

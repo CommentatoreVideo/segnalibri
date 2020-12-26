@@ -98,3 +98,8 @@ tr[id^='riga'] *{
 .navbar-inner {
   padding: 0 !important;
 }
+.breadcrumbs,
+.breadcrumbs * {
+  background-color: #505050 !important;
+  color: #ffffff !important;
+}
