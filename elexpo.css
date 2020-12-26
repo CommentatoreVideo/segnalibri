@@ -15,7 +15,7 @@ select{
   color:#ffffff;
 }
 
-h3 {
+h1,h3 {
   color:#ffffff !important;
 }
 #content,
@@ -102,4 +102,8 @@ tr[id^='riga'] *{
 .breadcrumbs * {
   background-color: #505050 !important;
   color: #ffffff !important;
+}
+
+.alert.alert-success b {
+  color: #000000 !important;
 }

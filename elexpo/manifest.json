@@ -6,7 +6,8 @@
     {
       "matches": [
         "https://www.umanetexpo.net/expo2015Server/UECDL/script/cClasse/*",
-        "https://www.umanetexpo.net/expo2015Server/UECDL/script/cSocial/*"
+        "https://www.umanetexpo.net/expo2015Server/UECDL/script/cSocial/*",
+        "https://www.umanetexpo.net/expo2015Server/UECDL/script/cFrasi/*"
       ],
       "js": [
         "elexpo.js"
