@@ -1,5 +1,53 @@
 #left,
-#left * {
+#left *,
+#navigation {
   background-color:#505050!important;
   color:#ffffff!important;
+}
+
+/*Corpo principale*/
+#main,
+#main a,
+#main p,
+#main b,
+#main *,
+#main *:hover{
+  background-color:#303030;
+  color:#ffffff;
+}
+
+/*Pulsanti invio*/
+input[type="button"] {
+  background-color:#505050;
+  color:#ffffff!important;
+}
+
+
+/*Link "Attività" nel quaderno*/
+.nav-tabs>li>a {
+  border-bottom-color: #ffffff;
+  border-top-color: #777777;
+  border-right-color: #777777;
+  border-left-color: #777777;
+}
+
+/* Date nel quaderno "Messaggi alla classe" */
+.date {
+  background-color: #505050 !important;
+}
+
+/*Sfondo nelle icone del quaderno rosse*/
+.icon.red:hover,
+.icon.red i:hover{
+  background-color: #e51400 !important;
+}
+
+/*Linea che unisce le icone nei messaggi alla classe*/
+.line:hover{
+  background-color:#eee !important;
+}
+
+/*Hover nei "messaggi alla classe" */
+.timeline>li:hover{
+  background-color:#303030 !important;
 }
