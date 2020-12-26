@@ -6,15 +6,19 @@
 }
 
 /*Corpo principale*/
-#main,
-#main a,
-#main p,
-#main b,
-#main span,
+#content,
+#content a,
+#content p,
+#content b,
+#content span,
 select{
   color:#ffffff;
 }
 
+h3 {
+  color:#ffffff !important;
+}
+#content,
 #main,
 select{
   background-color:#303030;
@@ -76,4 +80,21 @@ ul.pagestats.style-3,
 tr[id^='riga'] *{
   background-color: #505050!important;
   border-color:#505050 !important;
+}
+
+/* Capitoli, sottocapitoli... libro*/
+.accordion,
+.accordion-group,
+.accordion-heading,
+.box-content,
+.accordion * {
+  background-color: #505050 !important;
+}
+
+.navbar * {
+  background-color: #505050;
+  text-shadow: none !important;
+}
+.navbar-inner {
+  padding: 0 !important;
 }
