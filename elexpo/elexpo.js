@@ -8,6 +8,6 @@ const iframe=document.querySelector("iframe");
 if(iframe) {
   const link=document.createElement("link");
   link.rel="stylesheet";
-  link.href="https://segnalibri.vercel.app/elexpoRisposte.css";
+  link.href="https://segnalibri.vercel.app/elexpo2.css";
   iframe.head.appendChild(link);
 }
