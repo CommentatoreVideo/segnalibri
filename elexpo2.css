@@ -23,6 +23,9 @@
 .cke_dialog_tab_selected,
 .cke_dialog_ui_button,
 .cke_247_label,
+#cke_1_top,
+#cke_1_top *,
+#cke_1_bottom,
 .cke_path_item{
   background-color:#303030 !important;
   color:#ffffff !important;

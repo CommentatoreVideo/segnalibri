@@ -23,7 +23,11 @@ h1,h3 {
 select{
   background-color:#303030;
 }
-
+input[type="text"],
+textarea{
+  background-color:#303030!important;
+  color:#ffffff !important;
+}
 /*Pulsanti invio*/
 input[type="button"] {
   background-color:#505050!important;
