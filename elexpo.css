@@ -111,3 +111,29 @@ tr[id^='riga'] *{
 .alert.alert-success b {
   color: #000000 !important;
 }
+
+
+#cke_1_top,
+#cke_1_top *,
+#cke_1_bottom{
+  background-color:#303030 !important;
+  color:#ffffff !important;
+}
+
+.box,
+.box *{
+  background-color:#505050!important;
+  color:#ffffff!important;
+  border-color:#303030!important;
+}
+
+.dropdown-menu,
+.dropdown-menu * {
+  background-color: #707070;
+  color: #ffffff !important;
+  border-color: #707070 !important;
+}
+
+.more-messages {
+  background-color: #707070 !important;
+}
