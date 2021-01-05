@@ -63,10 +63,10 @@ input[type="button"] {
 }
 
 /*Hover nei "messaggi alla classe" */
-.timeline,
+/* .timeline,
 .timeline>li:hover{
   background-color:#303030 !important;
-}
+} */
 
 .nav-tabs>.active>a{
   background-color:#303030;
@@ -142,6 +142,7 @@ tr[id^='riga'] *{
   padding:0 !important;
 }
 
+/* Colori classifica */
 tr.success td,
 tr.success td * {
   background-color: #007000 !important;
@@ -159,8 +160,22 @@ tr.error td * {
   background-color: #aa0000 !important;
   color: #ffffff !important;
 }
+/* Fine colori classifica*/
 
+/* Quaderno, menu attività(quello orizzontale) */
 .nav-tabs>li>a,
 .nav-tabs>li>a:hover {
   background-color: transparent !important;
+}
+
+/* Barra in alto, icona ingranaggio */
+.theme-settings>li .topbar-toggle>a:hover,
+.theme-settings>li .sidebar-toggle>a:hover {
+  background-color: #505050 !important;
+}
+
+/* Barra in alto, icona busta */
+.more-messages:hover,
+.more-messages:hover * {
+  background-color: #505050 !important;
 }
