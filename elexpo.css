@@ -192,3 +192,7 @@ tr.error td * {
 .input-block-level {
   background-color: #303030 !important;
 }
+
+.alert-success {
+  background-color: #dff0d8 !important;
+}
