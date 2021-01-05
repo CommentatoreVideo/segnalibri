@@ -23,3 +23,7 @@ try {
   tentativi++;
   console.log(e);
 }
+
+//Serve per tenere fissa la navbar a sinistra
+document.getElementById("left").classList.add("sidebar-fixed");
+document.getElementById("left").classList.add("hasScroll");

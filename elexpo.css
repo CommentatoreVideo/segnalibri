@@ -184,3 +184,11 @@ tr.error td * {
 #left .subnav .subnav-menu>li>a:hover {
   background-color: #404040 !important;
 }
+
+.dropdown-menu>li>a:hover {
+  background-color: #404040 !important;
+}
+
+.input-block-level {
+  background-color: #303030 !important;
+}
