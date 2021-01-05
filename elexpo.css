@@ -159,3 +159,8 @@ tr.error td * {
   background-color: #aa0000 !important;
   color: #ffffff !important;
 }
+
+.nav-tabs>li>a,
+.nav-tabs>li>a:hover {
+  background-color: transparent !important;
+}
