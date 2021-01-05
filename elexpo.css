@@ -141,3 +141,21 @@ tr[id^='riga'] *{
 .bs-docs-example {
   padding:0 !important;
 }
+
+tr.success td,
+tr.success td * {
+  background-color: #007000 !important;
+  color: #ffffff !important;
+}
+
+tr.info td,
+tr.info td * {
+  background-color: #0080aa !important;
+  color: #ffffff !important;
+}
+
+tr.error td,
+tr.error td * {
+  background-color: #aa0000 !important;
+  color: #ffffff !important;
+}
