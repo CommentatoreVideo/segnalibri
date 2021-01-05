@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Umanet tema scuro",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.umanet.net/",
+        "https://www.umanet.net/course/subject/sistemi/*"
+      ],
+      "js": [
+        "umanet.js"
+      ]
+    }
+  ]
+}

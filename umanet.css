@@ -1,0 +1,146 @@
+.card-body:not(#divCreaSezione){
+  background-color:#505050 !important;
+  color:#ffffff !important;
+}
+h1,h2,h3,h4,h5,h6{color:#ffffff !important}
+
+
+/*Barra laterale*/
+/*Parte in basso*/
+div.main-menu-content{background-color:#505050 !important}
+/*Parte con i link*/
+ul.navigation-main{background-color:#505050 !important}
+/*Testo dei link*/
+span.menu-title{color:#ffffff !important}
+/*Immagini dei link*/
+.nav-item>a>i{color:#ffffff !important}
+/*Freccia a destra del link*/
+.nav-item>a::after{color:#ffffff !important}
+/*Sotto menu*/
+ul.menu-content{background-color:#505050 !important}
+a.menu-item>span{color:#ffffff !important}
+a.menu-item>i{color:#ffffff !important}
+/*Nome del corso, detail.html*/
+li.navigation-header{color:#ffffff !important}
+
+/*Rettangolo in alto a sinistra*/
+div.navbar-header{background-color:#505050 !important}
+
+/*Barra in alto*/
+div.navbar-wrapper{background-color:#505050 !important}
+/*Barra utente in alto che viene fuori su cellulare premendo sui 3 puntini*/
+div.navbar-container{background-color:#505050 !important}
+a.dropdown-user-link>span.text-bold-700{color:#ffffff !important}
+
+
+/*Sfondo*/
+div.app-content{background-color:#303030 !important}
+
+
+/*Barra in basso*/
+footer{
+  background-color:#505050 !important;
+  border-color: #505050 !important;
+}
+
+/*Libro*/
+.card-header{background-color:#505050 !important}
+.card-title{color:#ffffff !important}
+
+/*Compiti quaderno*/
+.card-footer{background-color:#505050 !important}
+p{color: #ffffff !important}
+
+/*Link menu attività*/
+a.nav-link.dropdown-toggle.active::after{color:#ffffff !important}
+a.nav-link.dropdown-toggle.active,
+a.nav-link.active{
+  background-color:#2a2d2c !important;
+  color:#ffffff !important;
+};
+
+/*Per ragioni di estetica cambio il colore del div nel quale si trova il tasto "Crea Sezione in Diario" nel forum*/
+div#divCreaSezione{background-color:#303030 !important}
+
+.bianco{color:#ffffff !important}
+
+/*Pagina feedback*/
+.modal-footer,
+.card-fullscreen,
+.sfondo{background-color:#505050 !important}
+
+/*Pagina della classifica*/
+/*Icone in alto a destra(chiudi, rimpicciolisci...)*/
+.list-inline>li{color:#ffffff !important}
+
+#DataTables_Table_0_info,   /*Scritta sotto la tabella*/
+#DataTables_Table_0_length, /*Scritta sopra la tabella in alto a sinistra*/
+#DataTables_Table_0_filter, /*Scritta sopra la tabella in alto a destra*/
+#DataTables_Table_0_length>label>select{ 
+  color:#ffffff !important;
+}
+.scuro,
+select{
+  background-color:#2a2d2c !important;
+  color:#ffffff !important;
+}
+
+table thead th,
+table thead td{
+  background-color:#2a2d2c !important;
+  color:#ffffff;
+}
+table>tbody{
+  background-color: #505050 !important;
+  color:#ffffff !important;
+}
+table>tbody>tr:not(.alert).odd {
+  background-color:#707070 !important;
+}
+table>tbody>tr:not(.alert).even>td>a,
+table>tbody>tr:not(.alert).odd>td>a{
+  color:#eeeeee !important;
+}
+table>tbody>tr:not(.alert).even{
+  background-color:#909090 !important;
+}
+
+.nav-item.show a.dropdown-toggle{
+  color:#ffffff !important;
+}
+
+input[type="text"],
+input[type="text"]:focus,
+input[type="number"],
+input[type="number"]:focus,
+input[type="date"],
+input[type="date"]:focus,
+input[type="url"],
+input[type="url"]:focus,
+input[type="password"],
+input[type="password"]:focus,
+input[type="email"],
+input[type="email"]:focus,
+textarea {
+  background-color:#505050 !important;
+  color:#ffffff;
+}
+label{color:#ffffff !important}
+small{color:#ffffff !important}
+small.text-muted{color:#ffffff !important}
+#div_id_avatar{color:#ffffff !important}
+
+#divCambiaPassword{
+  padding:0 !important;
+}
+
+
+input[type="search"],
+input[type="search"]:focus{
+  background-color:#303030 !important;
+  color:#ffffff !important;
+}
+
+.tab-pane{
+  background-color:#505050 !important;
+}
