@@ -137,3 +137,7 @@ tr[id^='riga'] *{
 .more-messages {
   background-color: #707070 !important;
 }
+
+.bs-docs-example {
+  padding:0 !important;
+}
