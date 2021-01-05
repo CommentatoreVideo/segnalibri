@@ -179,3 +179,8 @@ tr.error td * {
 .more-messages:hover * {
   background-color: #505050 !important;
 }
+
+/* Hover nella barra di sinistra*/
+#left .subnav .subnav-menu>li>a:hover {
+  background-color: #404040 !important;
+}
