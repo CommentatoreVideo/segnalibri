@@ -6,7 +6,13 @@
     {
       "matches": [
         "https://www.umanet.net/",
-        "https://www.umanet.net/course/subject/sistemi/*"
+        "https://www.umanet.net/profiles/profile/*",
+        "https://www.umanet.net/course/*",
+        "https://www.umanet.net/students/courses/*",
+        "https://www.umanet.net/course/subject/*/*",
+        "https://www.umanet.net/accounts/password_change/",
+        "https://www.umanet.net/accounts/logout/",
+        "https://www.umanet.net/accounts/login/"
       ],
       "js": [
         "umanet.js"

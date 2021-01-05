@@ -144,3 +144,7 @@ input[type="search"]:focus{
 .tab-pane{
   background-color:#505050 !important;
 }
+
+.card {
+  background-color: #505050 !important;
+}
