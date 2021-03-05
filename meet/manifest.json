@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Meet",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "js": [
+        "meet.js"
+      ]
+    }
+  ]
+}
